@@ -10,7 +10,8 @@ from instapy import set_workspace
 set_workspace(path=None)
 
 # get an InstaPy session!
-session = InstaPy()
+session = InstaPy(username="Bujair05", 
+        password="141481 SON")
 
 with smart_run(session):
     # general settings
