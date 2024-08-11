@@ -10,9 +10,7 @@ from instapy import set_workspace
 set_workspace(path=None)
 
 # get an InstaPy session!
-session = InstaPy(username="Bujair05", 
-        password="141481 SON")
-
+session = 
 with smart_run(session):
     # general settings
     session.set_dont_include(["friend1", "friend2", "friend3"])
